@@ -1,0 +1,14 @@
+{
+  "name": "webapp-hapi-sample",
+  "version": "1.0.0",
+  "description": "Sample for hapi based web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abc <abc@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
