@@ -1,12 +1,24 @@
 const Hapi = require('hapi');
 
-console.log('Helloworld we are initializing..');
+console.log('Hello world we are initializing..');
 
 // init server
 const server = new Hapi.Server({
     port: 8080,
     host: 'localhost'
 });
+
+
+// defining routes
+
+server.route({
+    method : 'get',
+    path : '/',
+    handler : (request) => {
+        return 'Hello world !'
+    }
+});
+
 
 // Starting server
 async function start() {
