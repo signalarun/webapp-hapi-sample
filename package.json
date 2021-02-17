@@ -9,6 +9,7 @@
   "author": "abc <abc@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^18.1.0"
+    "@hapi/hapi": "^20.1.0",
+    "@hapi/inert": "^6.0.3"
   }
 }
